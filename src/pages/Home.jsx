@@ -173,7 +173,7 @@ export function Home() {
                   <div>
                     <h4 className="font-semibold text-[var(--verde-escuro)]">Telefones</h4>
                     <p className="text-gray-600">
-                      (92) 98116-6152 <br /> (92) 98116-6134
+                      (92) 3199-3444 <br /> (92) 98116-6134
                     </p>
                   </div>
                 </div>

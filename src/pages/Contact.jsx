@@ -141,7 +141,7 @@ export function Contact() {
                 📍 Rua Pederneiras, nº 127 - Rodovia Grande Circular Zumbi dos
                 Palmares
               </p>
-              <p>📞 (92) 98116-6152 | (92) 98116-6134</p>
+              <p>📞 (92) 3199-3444 | (92) 98116-6134</p>
               <p>
                 ✉ laboratorio@usemix.com.br <br /> adm.usemix@usemix.com.br
               </p>
