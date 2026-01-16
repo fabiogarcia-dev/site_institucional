@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "tailwindcss";
+
+
+
+@layer base {
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+:root {
+    --verde-escuro: #1e3a2e;
+    --verde-medio: #2d5a3d;
+    --verde-claro: #008000;
+    --laranja: #ffa500;
+    --laranja-claro: #ff8c5a;
+    --vermelho: #e61919;
+    --cinza: #808080;
+    --vermelho-escuro: #ea3841;
+    --azul: #0165e1;
+    --vermelho-insta: #e1306c;
+    --azul-lk: #0a66c2;
+    
+}
+
+
+
+
+
