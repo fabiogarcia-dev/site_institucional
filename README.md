@@ -16,7 +16,7 @@ Vite
 Clone o repositório:
 
 bash
-git clone https://github.com/seuusuario/site-institucional-usinagem.git
+git clone https://github.com/fabiogarcia-dev/site_institucional.git
 Instale as dependências:
 
 bash
