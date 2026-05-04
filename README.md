@@ -1,16 +1,60 @@
-# React + Vite
+🏗️ Site Institucional - Usinagem de Concreto
+Website institucional desenvolvido para uma empresa de usinagem de concreto, com quatro páginas principais: Home, Sobre, Serviços e Contato.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Tecnologias Utilizadas
+React 19
 
-Currently, two official plugins are available:
+React Router DOM 7
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TailwindCSS 4
 
-## React Compiler
+EmailJS (para envio de leads via formulário de orçamento)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite
 
-## Expanding the ESLint configuration
+⚙️ Instalação e Execução
+Clone o repositório:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+git clone https://github.com/seuusuario/site-institucional-usinagem.git
+Instale as dependências:
+
+bash
+npm install
+Execute o projeto localmente com Vite:
+
+bash
+npm run dev
+📖 Uso
+Acesse a página inicial para visualizar informações gerais da empresa.
+
+Navegue pelas páginas Sobre e Serviços para conhecer mais detalhes.
+
+Utilize o formulário de Contato para enviar mensagens e orçamentos (via integração com EmailJS).
+
+🛠️ Estrutura do Projeto
+Código
+src/
+ ├── componentes/
+ │    ├── Footer
+ │    ├── Header
+ │    ├── ScrollToTop
+ │    ├── WhatsAppButton
+ │    └── maps.jsx
+ ├── pages/
+ │    ├── Home
+ │    ├── About
+ │    ├── Contact
+ │    └── Services.jsx
+ ├── public/
+ ├── app.jsx
+ ├── index.css
+ └── main.jsx
+✨ Funcionalidades
+Site institucional com informações da empresa.
+
+Página de contato com envio de leads via EmailJS.
+
+Botão de WhatsApp para contato rápido.
+
+Integração com mapas para localização da empresa.
